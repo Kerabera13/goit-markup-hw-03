@@ -6,6 +6,21 @@
   --contact-color: #757575;
   --backfound-footer-color: #2f303a;
 }
+* {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: #ffffff;
@@ -20,6 +35,15 @@ ul {
 a {
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-left: 15px;
+
+  outline: 2px solid springgreen;
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -45,7 +69,10 @@ a {
   color: #ffffff;
 }
 /* -------header--------- */
-
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -77,8 +104,11 @@ a {
 /*--------- hero-------- */
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -107,7 +137,14 @@ a {
 }
 
 /*-------- Advantages--------*/
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantages-subtitle {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -124,6 +161,12 @@ a {
 }
 
 /*-------works------*/
+.works {
+  padding-bottom: 94px;
+}
+.works-title {
+  margin-bottom: 50px;
+}
 .works-title,
 .team-title {
   font-weight: 700;
@@ -137,8 +180,19 @@ a {
 /*-------team------*/
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+.team-title {
+  margin-bottom: 50px;
+}
+.imagine {
+  margin-bottom: 30px;
+}
+
 .team-name {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -156,14 +210,23 @@ a {
 /*------- footer-----*/
 .footer {
   background-color: var(--backfound-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+.footer .logo {
+  margin-bottom: 20px;
+}
+
 address {
   font-style: normal;
+  margin-bottom: 9px;
 }
 .adress-color {
   color: #ffffff;
 }
 .footer-contact-link {
+  margin-bottom: 9px;
+
   font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
@@ -176,6 +239,13 @@ address {
 }
 /*------ portfolio-----*/
 /*-------filter--------*/
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.portfolio-filter {
+  margin-bottom: 50px;
+}
 
 .portfolio-filter-button {
   font-family: inherit;
@@ -204,6 +274,7 @@ address {
 }
 /*---------Gallery--------*/
 .gallery-text {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
